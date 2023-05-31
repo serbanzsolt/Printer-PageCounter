@@ -17,7 +17,7 @@ def get_page_count(ip_address, community):
 
 
 # Reading IP addresses from Excel file
-ip_addresses_df = pd.read_excel('ip_addresses.xlsx')
+ip_addresses_df = pd.read_excel('ip.xlsx')
 
 # Create a list to store the results
 results = []
